@@ -1,0 +1,135 @@
+/*-- FONTES ---*/
+@font-face {
+    font-family: 'oswald-regular';
+    font-style: normal;
+    src: local('oswald-regular'), local('oswald-regular'),
+         url('/fonts/Oswald-Regular.eot?') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/Oswald-Regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/Oswald-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/Oswald-Regular.svg') format('svg'); /* Legacy iOS */
+}
+@font-face {
+    font-family: 'c';
+    font-style: normal;
+    src: local('serif-regular'), local('serif-regular'),
+         url('/fonts/PTSerif-Regular.eot?') format('embedded-opentype'), /* IE6-IE8 */
+         url('/fonts/PTSerif-Regular.woff') format('woff'), /* Modern Browsers */
+         url('/fonts/PTSerif-Regular.ttf') format('truetype'), /* Safari, Android, iOS */
+         url('/fonts/PTSerif-Regular.svg') format('svg'); /* Legacy iOS */
+}
+/*-- //FONTES ---*/
+
+/*-- FORMATAÇÃO DE TEXTO --*/
+.main-title {
+    font-family: 'Oswald', sans-serif;
+}
+.title {
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+}
+.subtitle {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 600;
+}
+p {
+    font-family: 'serif-regular';
+    width: 200px;
+}
+.title-form {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+}
+.content-form label {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.input-nextto label {
+    font-size: 15px;
+    font-family: 'Oswald', sans-serif;
+}
+.title-btn, .text-cv {
+    font-size: 18px;
+    font-family: 'Oswald', sans-serif;
+    display: block;
+}
+/*-- /FORMATAÇÃO DE TEXTO --*/
+
+/*--- SECTION DA ESQUERDA --*/
+.wrapper-text {
+    width: 70%;
+}
+/*--- /SECTION DA ESQUERDA --*/
+
+/*--- SECTION DA DIREITA --*/
+.wrapper-color {
+    background-color: #314163;
+    width: 30%;
+}
+/*--- /SECTION DA DIREITA --*/
+
+/*--- FORM --*/
+.wrapper-form {
+    background-color: #e8f8ff;
+}
+.content-form {
+    border: 1px solid black;
+    box-sizing: border-box;
+}
+.content-form input {
+    display: block;
+    background-color: transparent;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.input-nextto {
+    width: 50%;
+}
+/*--- /FORM --*/
+
+/*--- BOTÕES --*/
+.btn-all {
+    font-family: 'Oswald', sans-serif;
+    outline: none;
+    line-height: 2em;
+}
+.btn-cv {
+    background-color: #4A85AF;
+    color: #FFF;
+}
+.btn-send {
+    background-color: #314163;
+    color: #FFF;
+}
+/*--- /BOTÕES --*/
+
+/*--- MEDIA QUERIES --*/
+@media (min-width: 2000px) {
+    .wrapper {
+        margin: 120px;
+    }
+    .set-margin {
+        margin-right: 500px;
+    }
+}
+@media (min-width: 768px) {
+    .main-title {
+        font-size: 65px;
+    }
+    .title {
+        font-size: 55px;
+    }
+    .subtitle {
+        font-size: 28px;
+    }
+    p:not(.title-form) {
+        width: 60%;
+        font-size: 25px;
+    }
+    .content-form label {
+        font-size: 20px;
+    }
+}
+/*--- /MEDIA QUERIES --*/
+
+

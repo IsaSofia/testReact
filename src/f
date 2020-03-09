@@ -1,0 +1,29 @@
+{/* LINHA COM AS LABELS */}
+                  <div className="d-flex flex-row">
+                    <label>
+                      Número
+                    </label>
+                    <label>
+                      Bairro:
+                    </label>
+                  </div>
+                  {/* LINHA COM OS INPUTS */}
+                  <div className="d-flex flex-row">
+                  <input className="mb-2 mr-3 input-nextto " type="text" name="numero"/>
+                  <input className="mb-2 mr-3 input-nextto " type="text" name="bairro"/>
+                  </div>
+                  {/* LINHA COM AS LABELS */}
+                  <div className="d-flex flex-row">
+                    <label>
+                      Número
+                    </label>
+                    <label>
+                      Bairro:
+                    </label>
+                  </div>
+                  {/* LINHA COM OS INPUTS */}
+                  <div className="d-flex flex-row">
+                  <input className="mb-2 mr-3 input-nextto " type="text" name="numero"/>
+                  <input className="mb-2 mr-3 input-nextto " type="text" name="bairro"/>
+                  </div>
+                  
