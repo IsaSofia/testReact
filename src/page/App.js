@@ -7,7 +7,7 @@ import './style.css';
 function App() {
   return (
 
-    <div className="container-fluid">
+    <div className="container-fluid container">
       <div className="wrapper">
         <div className="d-flex flex-col mt-5 mb-5 m-md-5">
 
@@ -113,7 +113,7 @@ function App() {
                 {/* /FORMULÀRIO */}
                 {/* BOTÃO PARA ENVIAR CURRÌCULO */}
                 <div className="d-flex justify-content-center justify-content-md-end p-2 mt-md-2">
-                  <button className="btn btn-all btn-send mt-4 mb-3">Enviar currículo</button>
+                  <button className="btn btn-all btn-send mt-4 mb-2">Enviar currículo</button>
                 </div>
                 {/* /BOTÃO PARA ENVIAR CURRÌCULO */}
               </div>
