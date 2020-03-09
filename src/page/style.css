@@ -66,6 +66,11 @@ p {
     background-color: #314163;
     width: 30%;
 }
+
+img {
+margin-top: 20em;
+margin-left: -2em;
+}
 /*--- /SECTION DA DIREITA --*/
 
 /*--- FORM --*/
@@ -131,5 +136,4 @@ p {
     }
 }
 /*--- /MEDIA QUERIES --*/
-
 

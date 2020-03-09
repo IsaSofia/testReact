@@ -1,20 +1,19 @@
 import React from 'react';
-import './App.css';
-import vagas from './assets/vagas.png';
+import vagas from '../assets/vagas.png';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './style.css';
 
 
 function App() {
   return (
-    
+
     <div className="container-fluid">
       <div className="wrapper">
         <div className="d-flex flex-col mt-5 mb-5 m-md-5">
 
-          
+
           {/* SECTION DA ESQUERDA */}
-          <section className="wrapper-text">     
+          <section className="wrapper-text">
             <h1 className="main-title mb-5">VAGAS</h1>
             <h2 className="title mt-4 mr-3 mr-lg-5 mb-md-5">CONSULTOR DE NEGÓCIOS - VENDAS PUBLICIDADE</h2>
             <h3 className="subtitle mt-4 mt-lg-5">Requisitos</h3>
@@ -25,7 +24,7 @@ function App() {
             <h3 className="subtitle mt-3 mt-lg-5">Atividades</h3>
             <p>
               Planejamnto de vendas , visita a clientes, desenvovimento
-              de propostas comerciais e plano de mídias, acompanhamento de indicadores e elaboração de orçamentos. 
+              de propostas comerciais e plano de mídias, acompanhamento de indicadores e elaboração de orçamentos.
             </p>
             <h3 className="subtitle mt-3 mt-lg-5">Perfil do candidato</h3>
             <p>
@@ -46,34 +45,34 @@ function App() {
                     <label className="mb-0">
                       Nome:
                     </label>
-                    <input className="mb-2 m-0 w-100" type="text" name="name"/>
+                    <input className="mb-2 m-0 w-100" type="text" name="name" />
                     <label className="mb-0">
                       E-mail:
                     </label>
-                    <input className="mb-2 m-0 w-100" type="email" name="email"/>
+                    <input className="mb-2 m-0 w-100" type="email" name="email" />
                     <label className="mb-0">
                       CEP:
                     </label>
-                    <input className="mb-2 m-0 w-100" type="text" name="cep"/>
+                    <input className="mb-2 m-0 w-100" type="text" name="cep" />
                     <label className="mb-0">
                       Endereço:
                     </label>
-                    <input className="mb-2 m-0 w-100" type="text" name="endereco"/>
+                    <input className="mb-2 m-0 w-100" type="text" name="endereco" />
 
-          
+
                     {/* PRIMEIRA LINHA COM OS INPUTS LADO A LADO */}
                     <div className="d-flex flex-row">
                       <div className="d-flex flex-column w-50">
                         <label>
                           Número:
                         </label>
-                        <input className="mb-2 m-0" type="text" name="numero"/>
+                        <input className="mb-2 m-0" type="text" name="numero" />
                       </div>
                       <div className="d-flex flex-column w-50 pl-4">
                         <label>
                           Bairro:
                         </label>
-                        <input className="mb-2 m-0" type="text" name="bairro"/>
+                        <input className="mb-2 m-0" type="text" name="bairro" />
                       </div>
                     </div>
                     {/* /PRIMEIRA LINHA COM OS INPUTS */}
@@ -84,13 +83,13 @@ function App() {
                         <label>
                           Cidade:
                         </label>
-                        <input className="mb-2 m-0" type="text" name="ciidade"/>
+                        <input className="mb-2 m-0" type="text" name="ciidade" />
                       </div>
                       <div className="d-flex flex-column w-50 pl-4">
                         <label>
                           Estado:
                         </label>
-                        <input className="mb-2 m-0" type="text" name="estado"/>
+                        <input className="mb-2 m-0" type="text" name="estado" />
                       </div>
                     </div>
                     {/* /SEGUNDA LINHA COM OS INPUTS */}
@@ -113,13 +112,13 @@ function App() {
                 </div>
                 {/* /FORMULÀRIO */}
                 {/* BOTÃO PARA ENVIAR CURRÌCULO */}
-              <div className="d-flex justify-content-center justify-content-md-end p-2 mt-md-2">
-                <button className="btn btn-all btn-send mt-4 mb-3">Enviar currículo</button>
+                <div className="d-flex justify-content-center justify-content-md-end p-2 mt-md-2">
+                  <button className="btn btn-all btn-send mt-4 mb-3">Enviar currículo</button>
+                </div>
+                {/* /BOTÃO PARA ENVIAR CURRÌCULO */}
               </div>
-              {/* /BOTÃO PARA ENVIAR CURRÌCULO */}
-              </div>
-              
-            </div>            
+
+            </div>
 
           </section>
           {/* /SECTION DA ESQUERDA */}
@@ -131,8 +130,8 @@ function App() {
             </div>
           </section>
           {/* /SECTION DA DIREITA */}
-        
-          
+
+
         </div>
       </div>
     </div>
